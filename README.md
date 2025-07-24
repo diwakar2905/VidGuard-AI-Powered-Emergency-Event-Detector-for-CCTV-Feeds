@@ -1,0 +1,1 @@
+# VidGuard-AI-Powered-Emergency-Event-Detector-for-CCTV-Feeds
