@@ -2,6 +2,11 @@
 VidGuard is an intelligent, AI-powered surveillance assistant designed to monitor real-time or pre-recorded CCTV footage for potential emergency events. Built using computer vision, it detects critical anomalies such as **large motion** (e.g., fights or accidents), **fire**, and **no motion** (e.g., falls or unconsciousness). VidGuard can be configured to trigger **instant alerts via SMS and email** to ensure rapid emergency response.
 
 ---
+<img width="1890" height="905" alt="image" src="https://github.com/user-attachments/assets/37566c21-070f-4423-9665-935709405698" />
+<img width="1883" height="858" alt="image" src="https://github.com/user-attachments/assets/b01c8c07-3d5a-4a38-8ec4-9bb48d93dd31" />
+<img width="1886" height="853" alt="image" src="https://github.com/user-attachments/assets/b5868a61-4ff5-404d-acc9-4f6e795a61a8" />
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/610aed7b-45f7-4943-86b8-63adf8467a30" />
+
 
 ## 🚀 Features
 
