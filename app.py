@@ -13,8 +13,10 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'videos'
 OUTPUT_FOLDER = 'outputs'
 SNAPSHOT_FOLDER = os.path.join(OUTPUT_FOLDER, 'snapshots')
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-os.makedirs(SNAPSHOT_FOLDER, exist_ok=True)
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+if not os.path.exists(SNAPSHOT_FOLDER):
+    os.makedirs(SNAPSHOT_FOLDER)
 
 @app.route('/')
 def index():
