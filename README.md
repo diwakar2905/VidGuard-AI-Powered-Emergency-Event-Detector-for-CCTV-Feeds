@@ -2,6 +2,12 @@
 
 VidGuard is an AI-powered system that detects emergency events such as large motion, fire, and no motion in CCTV video feeds. It uses OpenCV for video analysis and provides a Flask-based API for integration.
 
+<img width="1883" height="858" alt="Screenshot 2025-07-24 214709" src="https://github.com/user-attachments/assets/8fcda206-655a-45e4-9045-6df4f7ca689d" />
+
+<img width="1886" height="853" alt="Screenshot 2025-07-24 214732" src="https://github.com/user-attachments/assets/f636b60d-424c-4f8b-8bfd-fe5538cab2a4" />
+
+<img width="1919" height="911" alt="Screenshot 2025-07-24 214823" src="https://github.com/user-attachments/assets/c537ebe3-1b68-41c6-9533-136ca9648bd5" />
+
 ## Features
 
 - **Emergency Event Detection:** Detects the following events:
