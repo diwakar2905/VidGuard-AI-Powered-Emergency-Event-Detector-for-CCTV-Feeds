@@ -3,3 +3,4 @@ numpy
 twilio
 streamlit
 gunicorn
+Flask
