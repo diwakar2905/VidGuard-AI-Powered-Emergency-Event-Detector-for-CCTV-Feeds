@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: vidguard
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: TWILIO_ACCOUNT_SID
+        value: YOUR_TWILIO_ACCOUNT_SID
+      - key: TWILIO_API_KEY
+        value: YOUR_TWILIO_API_KEY
+      - key: TWILIO_API_SECRET
+        value: YOUR_TWILIO_API_SECRET
+      - key: TWILIO_FROM_NUMBER
+        value: YOUR_TWILIO_FROM_NUMBER
+      - key: TWILIO_TO_NUMBER
+        value: YOUR_TWILIO_TO_NUMBER
+      - key: SENDGRID_API_KEY
+        value: YOUR_SENDGRID_API_KEY
+      - key: FROM_EMAIL
+        value: YOUR_FROM_EMAIL
+      - key: TO_EMAIL
+        value: YOUR_TO_EMAIL
